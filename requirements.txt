@@ -1,0 +1,22 @@
+# documentation and templating
+sphinx
+sphinx_bootstrap_theme
+sphinxjp.themes.basicstrap
+sphinx_rtd_theme
+docutils
+jinja2
+# code analyzers
+tox
+flake8
+pylint
+# general needs
+virtualenv
+simplejson
+requests
+six
+semantic_version
+PyYAML
+version_utils
+# tests framework modules
+pytest
+pytest-html
