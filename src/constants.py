@@ -15,10 +15,14 @@
 #    You should have received a copy of the GNU General Public License
 #    along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #
-from os import getenv
-from os.path import join
 
 
 class Constants(object):
     """Constants attributes for stockAPI"""
+    VERSION = "0.1"
+
+
+class IEX(object):
+    """IEX constants"""
+    API = "https://api.iextrading.com/1.0"
 
