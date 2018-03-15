@@ -1,4 +1,4 @@
-#StockAPI
+# StockAPI
 
 Project to consume data from listed stock API(s) below:
 
@@ -8,15 +8,15 @@ Project to consume data from listed stock API(s) below:
 All codes from this project are for *study* purpose only and **should not** be deployed in a PRODUCTION
 or in an enterprise environment.
 
-##Report Issues
+## Report Issues
 To report an issue that can be ideas, suggestions for new features, or even a bug found during your tests, 
 please follow github https://help.github.com/articles/creating-an-issue/ 
 
-##How to contribute
+## How to contribute
 Feel free to fork and submit PRs to the master branch or feel free to contact me 
 by email eduardomcerqueira@gmail.com
 
-##Disclaimer
+## Disclaimer
 * This software is built for study purpose only.  
 * I do not offer any support, you can fork or use this software with your own risk.
 * This software may use third-party libraries and modules, check their licenses and legal aspects before to install in your environment.
