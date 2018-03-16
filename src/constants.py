@@ -22,7 +22,7 @@ class Constants(object):
     VERSION = "0.1"
 
 
-class IEX(object):
+class IEXConfig(object):
     """IEX constants"""
-    API = "https://api.iextrading.com/1.0"
+    ENDPOINT = "https://api.iextrading.com/1.0"
 

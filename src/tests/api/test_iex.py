@@ -1,12 +1,12 @@
 import pytest
 import requests
-from constants import IEX
+from constants import IEXConfig
 
 
 class TestsIEX(object):
-    """Tests for IEX API"""
+    """Tests consuming IEX API"""
 
-    api = IEX.API
+    api = IEXConfig.ENDPOINT
     symbol = "rht"
 
     def test_get_all_symbols(self):
@@ -37,3 +37,4 @@ class TestsIEX(object):
         assert news.status_code == 200
         for new in news.json():
             print(f"{self.symbol} \n {new}")
+
